@@ -1,0 +1,63 @@
+[
+    {
+        "name": "smarterdigital/wpd-toolset/package",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-package.git",
+            "reference": "2b07b41f1107930f4151027261d662c39e115af4"
+        },
+        "time": "2018-04-26T13:30:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Package"
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/utilities/admin-notice",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-admin-notice-utilities.git",
+            "reference": "9fa44dd134f687f2fd85b57cd812d48160d03938"
+        },
+        "time": "2018-04-26T13:29:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "wpd-toolset-admin-notice-utilities.php"
+            ],
+            "psr-4": {
+                "WPD\\Toolset\\Utilities\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Admin Notices"
+    }
+]
